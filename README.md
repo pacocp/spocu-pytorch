@@ -1,7 +1,7 @@
 # “SPOCU”: scaled polynomial constant unit activation function.
 
 
-Pytorch non-official implementation of the SPOCU activation function [1], for the case when
+Non-official Pytorch implementation of the SPOCU activation function [1], for the case when
 c=infinite.
 
 It can be included in your network given a alpha, beta and gamma value:

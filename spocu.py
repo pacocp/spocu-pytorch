@@ -8,6 +8,7 @@ class SPOCU(nn.Module):
         self.alpha = alpha
         self.beta = beta
         self.gamma = gamma
+    
     def h_function(self,value):
         h_ = value.detach().numpy()
         h_ = h_.clip(0)

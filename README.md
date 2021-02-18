@@ -1,8 +1,5 @@
 # “SPOCU”: scaled polynomial constant unit activation function.
 
-
-Forked from https://github.com/pacocp/spocu-pytorch
-
 Non-official Pytorch/Tensorflow implementation of the SPOCU activation function [1], for the case when
 c=infinite.
 
@@ -48,10 +45,12 @@ print(spocu(X))
 
 ## Tests
 
-see [spocu_test](spocu_test.py) for equivalance of pytorch and tensorflow implementation.
+See [spocu_test](spocu_test.py) for equivalance of pytorch and tensorflow implementation.
 
 
+## Acknowledgements
 
+Thanks author of the Tensorflow version, [Atilla Ozgur](https://github.com/ati-ozgur).
 
 # Bibliography
 

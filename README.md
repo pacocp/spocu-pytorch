@@ -50,7 +50,7 @@ See [spocu_test](spocu_test.py) for equivalance of pytorch and tensorflow implem
 
 ## Acknowledgements
 
-Thanks author of the Tensorflow version, [Atilla Ozgur](https://github.com/ati-ozgur).
+Thanks to the author of the Tensorflow version, [Atilla Ozgur](https://github.com/ati-ozgur).
 
 # Bibliography
 

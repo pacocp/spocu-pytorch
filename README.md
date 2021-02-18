@@ -1,8 +1,13 @@
 # “SPOCU”: scaled polynomial constant unit activation function.
 
 
-Non-official Pytorch implementation of the SPOCU activation function [1], for the case when
+Forked from https://github.com/pacocp/spocu-pytorch
+
+Non-official Pytorch/Tensorflow implementation of the SPOCU activation function [1], for the case when
 c=infinite.
+
+
+## Pytorch
 
 It can be included in your network given an alpha, beta and gamma value:
 
@@ -19,6 +24,10 @@ x = torch.rand((10,10))
 print(spocu(x))
 
 ```
+
+
+
+
 
 
 

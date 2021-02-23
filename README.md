@@ -48,6 +48,21 @@ print(spocu(X))
 See [spocu_test](spocu_test.py) for equivalance of pytorch and tensorflow implementation.
 
 
+## Citation
+
+If you find this work useful, please cite:
+
+```
+@article{carrillo2021deep,
+  title={Deep learning to classify ultra-high-energy cosmic rays by means of PMT signals},
+  author={Carrillo-Perez, F and Herrera, LJ and Carceller, JM and Guill{\'e}n, A},
+  journal={Neural Computing and Applications},
+  pages={1--17},
+  year={2021},
+  publisher={Springer}
+}
+```
+
 ## Acknowledgements
 
 Thanks to the author of the Tensorflow version, [Atilla Ozgur](https://github.com/ati-ozgur).

@@ -6,7 +6,7 @@ c=infinite.
 
 ## Installation
 
-You can install this package using pip:
+You can install this package using [pip](https://pypi.org/project/spocu/):
 
 ```
 python3 -m pip install spocu

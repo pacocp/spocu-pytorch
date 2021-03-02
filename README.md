@@ -4,12 +4,20 @@ Non-official Pytorch/Tensorflow implementation of the SPOCU activation function 
 c=infinite.
 
 
+## Installation
+
+You can install this package using pip:
+
+```
+python3 -m pip install spocu
+```
+
 ## Pytorch
 
 It can be included in your network given an alpha, beta and gamma value:
 
 ```
-from spocu_pytorch import SPOCU
+from spocu.spocu_pytorch import SPOCU
 
 alpha = 3.0937
 beta = 0.6653
@@ -28,7 +36,7 @@ print(spocu(x))
 
 
 ```
-from spocu_tensorflow import SPOCU
+from spocu.spocu_tensorflow import SPOCU
 
 alpha = 3.0937
 beta = 0.6653

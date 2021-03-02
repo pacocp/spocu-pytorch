@@ -7,8 +7,8 @@ import tensorflow as tf
 #tf.get_logger().setLevel('ERROR')
 
 
-from spocu_pytorch import SPOCU as SPOCUpytorch
-from spocu_tensorflow import SPOCU as SPOCUtensorflow 
+from spocu.spocu_pytorch import SPOCU as SPOCUpytorch
+from spocu.spocu_tensorflow import SPOCU as SPOCUtensorflow 
 
 if __name__ == '__main__':
   alpha = 3.0937

@@ -16,7 +16,7 @@ python3 -m pip install spocu
 
 It can be included in your network given an alpha, beta and gamma value:
 
-```
+```python
 from spocu.spocu_pytorch import SPOCU
 
 alpha = 3.0937
@@ -35,7 +35,7 @@ print(spocu(x))
 ## Tensorflow
 
 
-```
+```python
 from spocu.spocu_tensorflow import SPOCU
 
 alpha = 3.0937
@@ -60,7 +60,7 @@ See [spocu_test](spocu_test.py) for equivalance of pytorch and tensorflow implem
 
 If you find this work useful, please cite:
 
-```
+```latex
 @article{carrillo2021deep,
   title={Deep learning to classify ultra-high-energy cosmic rays by means of PMT signals},
   author={Carrillo-Perez, F and Herrera, LJ and Carceller, JM and Guill{\'e}n, A},
